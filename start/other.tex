@@ -1,0 +1,62 @@
+
+%---------------------------------------environment abstract
+\newenvironment*{resume}{%
+\renewcommand*{\abstractname}{\begin{center}\Huge \textbf{Abstract}\end{center}}
+\begin{abstract}
+{\end{abstract}}
+
+%---------------------------------------environment signatures
+\newenvironment*{Signatures}{%
+\renewcommand*{\abstractname}{\Huge \textbf{Signature}}
+\begin{abstract}
+}{\end{abstract}}
+
+%---------------------------------------environment acknowledgment
+\newenvironment*{acknowledgement}{%
+\renewcommand*{\abstractname}{\begin{flushleft}\Huge \textbf{Acknowledgement}\end{flushleft}}
+\begin{abstract}
+}{\end{abstract}}
+
+
+
+%=================================================================================
+%---------------------------------------------Abstract
+\begin{resume}
+\bigskip
+
+\lettrine[lines=2]{T}his report covers the design and the development of a web component included in a automated fleet dispatching solution.
+
+This component enables the back end user, which is the SaaS Office, to view and control drivers in real time. Moreover, it allows him to inspect and study the rides booked by the SaaS company's users.
+
+This project is achieved as second year's design and development project at the National School of Computer Science.
+
+Keywords: Javascript, Google Maps Api, AngularJS, UI, Bootstrap, ui-grid, ng-map...
+
+\end{resume}
+%-------------------------------------------Signature
+\begin{center} 
+\begin{Signatures}
+
+%\includegraphics[height=3 in]{images/acknowledgment_Grati.png}
+%\includegraphics[height=3 in]{images/acknowledgment_Faten.jpg}
+\end{Signatures}
+\end{center}
+%----------------------------------------- Acknowledgement
+\begin{acknowledgement}
+
+
+{
+
+\bigskip
+\lettrine[lines=2]{I}n conducting this report, we have received meaningful assistance from many quarters which we
+like to put on record here with deep gratitude and great pleasure.
+
+
+First and foremost, we express our sincere gratitude to our supervisor,  Mohamed Ali Charmi, who extended his complete support and helped to make us deliver our best, as well as our co-workers for their guidance and valuable pieces of advice during different phases of the elaboration of the project.
+Simply put, we could not have done this work without the amount of help and trust we received from them. We appreciate their patience in checking and reviewing our work.
+\bigskip
+
+We would also like to thank all of our teachers at the National School of Computer Science for their continuous help and treasurable training during our study years.
+
+Finally, special thanks to the jury members who honored us by examining and evaluating this modest contribution.}
+\end{acknowledgement}
